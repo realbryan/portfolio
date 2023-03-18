@@ -1,12 +1,17 @@
  export const skillsData = [
+    'C#',
+    '.Net',
+    'Java',
+    'Kotlin',
+    'Git',
     'HTML',
     'Javascript',
     'CSS',
     'React',
-    'Django',
-    'MongoDB',
     'MySQL',
     'Python'
+
+    // TODO: Add git and image for .NET
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -1,6 +1,6 @@
 {
-  "short_name": "Developer Portfolio",
-  "name": "Developer Portfolio template by hhhrrrttt222111",
+  "short_name": "Bryan's Portfolio",
+  "name": "Bryan's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -11,11 +11,6 @@
       "src": "favicon.png",
       "type": "image/png",
       "sizes": "64x64"
-    },
-    {
-      "src": "favicon512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",

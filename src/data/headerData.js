@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/ResumeBryan.pdf'
+import image from '../assets/png/aviCropped.png'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Bryan Custodio',
+    title: "Software Engineer",
+    desciption: "“The reason why people give up so fast is because they tend to look at how far they still have to go, instead of how far they have gotten.”",
+    image: image,
     resumePdf: resume
 }

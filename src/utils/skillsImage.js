@@ -75,10 +75,13 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import net from '../assets/svg/skills/NetFramework.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case '.net':
+            return net;
         case 'gcp':
             return gcp;
         case 'html':

@@ -13,6 +13,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { routeName } from '../../App';
 
 function Navbar() {
     const { theme, setHandleDrawer } = useContext(ThemeContext);
@@ -183,7 +184,7 @@ function Navbar() {
                     <div className='navLink--container'>
                         <Fade left>
                             <NavLink
-                                to='/'
+                                to={`${routeName}`}
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -201,7 +202,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#about'
+                                to={`${routeName}/#about`}
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -217,7 +218,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#education'
+                                to={`${routeName}/#education`}
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -235,7 +236,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to={`${routeName}/#skills`}
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -251,7 +252,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#projects'
                                 smooth={true}
@@ -267,11 +268,11 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to={`${routeName}/#contacts`}
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
